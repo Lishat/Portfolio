@@ -7,7 +7,6 @@ import SkillsSection from './components/SkillsSection';
 import Experience from './components/Experience';
 import EducationAndAwards from './components/EducationAndAwards';
 import Contact from './components/Contact';
-import AIChatbot from './components/AIChatbot';
 
 function App() {
   return (
@@ -21,9 +20,6 @@ function App() {
         <EducationAndAwards />
         <Contact />
       </main>
-      
-      {/* Interactive AI Assistant */}
-      <AIChatbot />
     </div>
   );
 }

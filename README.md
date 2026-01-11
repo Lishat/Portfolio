@@ -1,10 +1,9 @@
-# Nexus Resume - An Interactive AI Portfolio
+# Nexus Resume - A Personal Portfolio
 
-This project is a creative and interactive personal portfolio website built with React and Vite, designed to showcase my skills, experience, and projects in a unique and engaging way. The centerpiece of this portfolio is an AI-powered chatbot, integrated with the Gemini API, that allows visitors to interact with my resume in a conversational format.
+This project is a creative personal portfolio website built with React and Vite, designed to showcase my skills, experience, and projects in a clean and modern interface.
 
 ## Features
 
-- **Interactive AI Chatbot:** Engage with a Gemini-powered chatbot to ask questions about my skills, experience, and projects.
 - **Dynamic Project Gallery:** Browse through a collection of my projects with descriptions and links.
 - **Comprehensive Resume Sections:** Detailed sections for professional experience, education, awards, and technical skills.
 - **Modern and Responsive Design:** A clean and fully responsive layout built with React and styled to be visually appealing on any device.
@@ -32,12 +31,6 @@ These instructions will get you a copy of the project up and running on your loc
     npm install
     ```
 
-3.  **Set up your environment variables:**
-    Create a `.env.local` file in the root of the project and add your Gemini API key:
-    ```
-    GEMINI_API_KEY=your_gemini_api_key
-    ```
-
 ## Usage
 
 To run the app in a development environment, run the following command:
@@ -51,7 +44,6 @@ This will start the development server, and you can view the app by navigating t
 ## Technologies Used
 
 - **Frontend:** React, Vite, TypeScript
-- **AI:** Google Gemini API
 - **Styling:** CSS Modules / Styled Components (or other styling solution)
 - **Deployment:** (e.g., Vercel, Netlify)
 
