@@ -5,7 +5,7 @@ import { Project } from '../types';
 
 const ProjectGallery: React.FC = () => {
   const [filter, setFilter] = useState<string>('All');
-  const categories = ['All', 'Web', 'AI', 'Mobile', 'Other'];
+  const categories = ['All', 'Web', 'AI', 'Other'];
 
   const filteredProjects = useMemo(() => {
     if (filter === 'All') return RESUME_DATA.projects;
